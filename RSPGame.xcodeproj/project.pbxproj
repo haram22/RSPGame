@@ -13,6 +13,7 @@
 		21E714B329EFB7DB00A6DC16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E714B129EFB7DB00A6DC16 /* Main.storyboard */; };
 		21E714B529EFB7DC00A6DC16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21E714B429EFB7DC00A6DC16 /* Assets.xcassets */; };
 		21E714B829EFB7DC00A6DC16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E714B629EFB7DC00A6DC16 /* LaunchScreen.storyboard */; };
+		21E714C029EFC93500A6DC16 /* Rps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E714BF29EFC93500A6DC16 /* Rps.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		21E714B429EFB7DC00A6DC16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21E714B729EFB7DC00A6DC16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21E714B929EFB7DC00A6DC16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21E714BF29EFC93500A6DC16 /* Rps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rps.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		21E714AA29EFB7DB00A6DC16 /* RSPGame */ = {
 			isa = PBXGroup;
 			children = (
+				21E714BF29EFC93500A6DC16 /* Rps.swift */,
 				21E714AB29EFB7DB00A6DC16 /* AppDelegate.swift */,
 				21E714AD29EFB7DB00A6DC16 /* SceneDelegate.swift */,
 				21E714AF29EFB7DB00A6DC16 /* ViewController.swift */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21E714B029EFB7DB00A6DC16 /* ViewController.swift in Sources */,
+				21E714C029EFC93500A6DC16 /* Rps.swift in Sources */,
 				21E714AC29EFB7DB00A6DC16 /* AppDelegate.swift in Sources */,
 				21E714AE29EFB7DB00A6DC16 /* SceneDelegate.swift in Sources */,
 			);
